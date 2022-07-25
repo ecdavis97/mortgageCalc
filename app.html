@@ -72,15 +72,15 @@
                 <form id="userInput"> <!--ID userInput allows us to draw this information in JS-->
                     <div class="mb-3">
                       <label for="loanAmount" class="form-label">Loan Amount</label>
-                      <input type="number" min="0" step="500" class="form-control" id="loanAmount">
+                      <input type="number" min="0" step="500" class="form-control" id="loanAmount" value="15000">
                     </div>
                     <div class="mb-3">
                       <label for="term" class="form-label">Term(Months)</label>
-                      <input type="number" min="0" max="72" step="1" class="form-control" id="term">
+                      <input type="number" min="0" max="72" step="1" class="form-control" id="term" value="60">
                     </div>
                     <div class="mb-3">
                       <label for="rate" class="form-label">Interest Rate (%)</label>
-                      <input type="number" min="0" step=".01" class="form-control" id="rate">
+                      <input type="number" min="0" step=".01" class="form-control" id="rate" value="5">
                     </div>                    
                     <button type="button" id="btnSubmit" class="btn btn-primary btn-block">Calculate!</button>
                   </form>
