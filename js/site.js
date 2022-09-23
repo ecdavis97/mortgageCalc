@@ -32,7 +32,7 @@ function generatePayments(loanNum,termNum,rateNum){
         let prinPay = payment - interestPay;
         totalInterest = totalInterest + interestPay;
         balance = balance - prinPay;
-        if (balance < 0) {
+        if (balance < 0) { 
             balance = 0
         }
         
